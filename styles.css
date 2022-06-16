@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.firstSignButton {
+	font-family: 'Roboto, sans-serif';
+}
+
+/* HEADER */
+header {
+	background-color: #1f2937;
+	padding: 1em 12em;
+}
+
+#logo {
+	font-size: 24px;
+	color: #f9faf8;
+	font-weight: 900;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+/* header links on right */
+.navBar ul {
+	display: flex;
+	gap: 1.5em;
+	list-style: none;
+}
+
+/* Links on header */
+.rightLinks a {
+	font-size: 18px;
+	color: #e5e7eb;
+	text-decoration: none;
+	gap: 15px;
+}
+
+/* FIRST SECTION */
+.first {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 7em 0;
+}
+
+.first .leftContainerTop {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.first .rightContainerTop {
+	flex-shrink: 0;
+	width: 50%;
+
+}
+
+h1.hero {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FaF8;
+}
+
+.firstText {
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+button {
+	background-color: #3882F6;
+	color: #F9FaF8;
+	border-radius: 8px;
+	border: none;
+	text-align: center;
+	height: 35px;
+	width: 120px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.placeholder {
+	display:flex;
+	text-align: center;
+	color: #f9faf8;
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+}
+
+.placeholdertxt{
+	font-size: 18px;
+	text-align: center;
+}
+
+/* ----------------- */
+/* Second Section */
+
