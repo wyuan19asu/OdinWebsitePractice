@@ -166,3 +166,48 @@ h2.secondHeading {
 	margin: 0 50px 0 0;
 }
 
+/* Fourth Section */
+.fourth {
+	display: flex;
+	justify-content: center;
+	padding: 5em 11em;
+	font-size: 24px;
+	color:#e5e7eb
+}
+
+.fourthContainer {
+	background-color: #3882F6;
+	padding: 2em;
+	border-radius: 12px;
+	display: flex;
+	gap: 6em;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+p.calltoaction{
+	font-weight: bold;
+}
+
+.secondSignButton {
+	background-color: #3882F6;
+	color: #F9FaF8;
+	border-radius: 8px;
+	border: 2px solid white;
+	text-align: center;
+	height: 40px;
+	width: 120px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/* copyright section */
+footer{
+	color: #e5e7eb;
+	display: flex;
+	background-color: #1f2937;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+}
